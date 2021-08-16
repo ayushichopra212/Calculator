@@ -1,0 +1,8 @@
+<h2>Employees</h2>
+<ul class="items">
+    <li (click)="onSelect(employee)"
+    [routerLink]="['/employees',4, 'edit']" 
+    [queryParams]="{allowEdit: '1'}" *ngFor="let employee of employees">
+        <span class="badge">{{employee.id}}</span> {{employee.name}}
+    </li>
+</ul>
