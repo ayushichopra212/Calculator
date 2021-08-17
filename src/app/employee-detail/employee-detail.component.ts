@@ -15,6 +15,7 @@ public employeeId;
     let id = parseInt(this.route.snapshot.paramMap.get('id'))
     this.employeeId = id;
     console.log("hello1");
+    console.log("hello2");
   }
 
 }
