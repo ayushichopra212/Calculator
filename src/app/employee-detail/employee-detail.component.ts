@@ -16,6 +16,7 @@ public employeeId;
     this.employeeId = id;
     console.log("hello1" + "hello");
     console.log("hello2");
+    console.log("hello1" + "bieee");
   }
 
 }
