@@ -14,7 +14,7 @@ public employeeId;
   ngOnInit() {
     let id = parseInt(this.route.snapshot.paramMap.get('id'))
     this.employeeId = id;
-    console.log("hello1");
+    console.log("hello1" + "bieee");
   }
 
 }
